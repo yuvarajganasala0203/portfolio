@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yuvaraju Ganasala — Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --accent: #ff6a00;
+      --bg: #ffffff;
+      --text: #0b0b0b;
+      --muted: #6b6b6b;
+      --card-bg: #ffffff;
+      --border: #eee;
+    }
+
+    body.dark {
+      --bg: #0b0b0b;
+      --text: #f5f5f5;
+      --muted: #b5b5b5;
+      --card-bg: #1a1a1a;
+      --border: #333;
+    }
+
+    *{box-sizing:border-box}
+    body {
+      margin:0;
+      background: var(--bg);
+      color: var(--text);
+      line-height:1.45;
+      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      transition: background 0.3s, color 0.3s;
+    }
+    .container{max-width:1000px;margin:32px auto;padding:24px}
+    header{display:flex;gap:24px;align-items:center;justify-content:space-between}
+    .portrait{width:110px;height:110px;border-radius:16px;background:linear-gradient(135deg,var(--accent),#222);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:28px}
+    h1{margin:0;font-size:28px}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+    .top{display:flex;gap:28px;margin-top:18px}
+    nav.card, .main.card, .card{background:var(--card-bg);border:1px solid var(--border);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(15,15,15,0.04)}
+    aside{width:320px}
+    main{flex:1}
+    .meta{display:flex;flex-direction:column;gap:8px;font-size:14px;color:var(--muted)}
+    .section{margin-bottom:18px}
+    .section h2{display:flex;align-items:center;gap:10px;margin:0 0 10px;font-size:16px}
+    .skill-list{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{padding:8px 10px;border-radius:8px;border:1px solid var(--border);background:#fafafa;font-size:13px}
+    body.dark .skill{background:#222;}
+    .card-item{padding:12px;border-radius:10px;border:1px solid var(--border);margin-bottom:10px}
+    .job-meta{font-size:13px;color:var(--muted)}
+    .download{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600}
+    footer{margin-top:28px;text-align:center;color:var(--muted);font-size:13px}
+    #theme-toggle{padding:8px 12px;border:none;border-radius:8px;cursor:pointer;font-weight:600;background:var(--card-bg);color:var(--text);border:1px solid var(--border);transition:0.3s}
+    @media (max-width:900px){
+      .top{flex-direction:column}
+      aside{width:100%}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div style="display:flex;gap:20px;align-items:center">
+        <div class="portrait">YG</div>
+        <div>
+          <h1>Yuvaraju Ganasala</h1>
+          <p class="lead">B.Sc. Computer Science — Final Year · Frontend & Web Developer · Designer</p>
+          <div style="margin-top:10px">
+            <!-- Replace with your actual resume PDF link -->
+            <a href="https://drive.google.com/file/d/1dSLo4vQR-HYKFw-GqAUqxLpUe2QHIsFF/view?usp=sharing/preview" class="download" download>Download PDF Resume</a>
+          </div>
+        </div>
+      </div>
+      <button id="theme-toggle">🌙 Dark</button>
+    </header>
+
+    <div class="top" style="margin-top:22px">
+      <aside>
+        <div class="card">
+          <div class="section">
+            <h2>Contact</h2>
+            <div class="meta">
+              <div>Email: <strong>yuvarajganasala4125@gmail.com</strong></div>
+              <div>Phone: <strong>+91 8341254127</strong></div>
+              <div>Location: <strong>India</strong></div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>Skills</h2>
+            <div class="skill-list">
+              <div class="skill">HTML</div>
+              <div class="skill">CSS</div>
+              <div class="skill">JavaScript</div>
+              <div class="skill">React</div>
+              <div class="skill">Node.js</div>
+              <div class="skill">Responsive Design</div>
+              <div class="skill">Figma</div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>Education</h2>
+            <div class="card-item">
+              <strong>B.Sc. Computer Science</strong>
+              <div class="job-meta">Final Year — [Aditya Degree college,Amalapuram,Andhra]</div>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>Languages</h2>
+            <div class="meta">
+              <div>English — Professional</div>
+              <div>Telugu — Native</div>
+              <div>Hindi — Conversational</div>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <main>
+        <div class="main card">
+          <div class="section">
+            <h2>Professional Summary</h2>
+            <p style="color:var(--muted)">Final-year B.Sc. Computer Science student with hands-on experience building responsive websites and web applications. Passionate about clean UI, performance and user-centred design. Seeking internships or junior roles where I can contribute and grow.</p>
+          </div>
+
+          <div class="section">
+            <h2>Experience</h2>
+            <div class="card-item">
+              <strong> Internship / Project</strong>
+              <div class="job-meta">april 2025 — June</div>
+              <p class="job-desc" style="margin:8px 0 0;color:var(--muted)">During my internship in MERN (MongoDB, Express.js, React.js, Node.js) Full Stack Development, I gained hands-on experience in building dynamic, responsive, and scalable web applications. I worked on both front-end and back-end development, including designing user interfaces with React, developing RESTful APIs using Express and Node.js, and managing data with MongoDB. I also learned about authentication, deployment, version control with Git/GitHub, and collaborative teamwork in an agile environment.</p>
+            </div>
+
+            <div class="card-item">
+              <strong>Graphic Designer / Freelance</strong>
+              <div class="job-meta">2022 — 2024</div>
+              <p style="margin:8px 0 0;color:var(--muted)">Designed marketing assets and social graphics, collaborated with clients to deliver visual identity and brand assets in timely manner.</p>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>Projects</h2>
+            <div class="card-item">
+              <strong>Portfolio Website</strong>
+              <div class="job-meta">React, Tailwind, Vercel</div>
+              <p style="margin:8px 0 0;color:var(--muted)">A personal portfolio showcasing projects, blog and contact form. Features responsive layouts and performance optimizations.</p>
+            </div>
+
+            <div class="card-item">
+              <strong>Kids Game (Android)</strong>
+              <div class="job-meta">Unity / Java / Android</div>
+              <p style="margin:8px 0 0;color:var(--muted)">Educational game concept under development. Focuses on interactivity and kid-friendly UX.</p>
+            </div>
+          </div>
+
+          <div class="section">
+            <h2>Certificates & Achievements</h2>
+            <ul style="color:var(--muted);margin:8px 0 0;padding-left:18px">
+              <li>Python Essentials-1,2</li>
+              <li>Mern Full Stack Development</li>
+              <li>Infosys springboard(HTML,CSS,JavaScript)</li>
+               
+            </ul>
+          </div>
+
+          <div style="display:flex;gap:12px;margin-top:8px">
+            <a class="download" href="https://drive.google.com/file/d/1dSLo4vQR-HYKFw-GqAUqxLpUe2QHIsFF/view?usp=sharing" download>Download Resume (PDF)</a>
+            <a class="download" href="#contact" style="background:#222;color:#fff">Contact Me</a>
+          </div>
+        </div>
+
+        <div id="contact" class="card" style="margin-top:16px">
+          <h2>Contact</h2>
+          <p style="color:var(--muted);margin:8px 0 0">Prefer email — <strong>yuvarajganasala4125@gmail.com</strong>. Replace the placeholder contact details with your real info before publishing.</p>
+        </div>
+      </main>
+    </div>
+
+    <footer>
+      &copy; 2025 Yuvaraju Ganasala — Resume Webpage
+    </footer>
+  </div>
+
+  <script>
+    const toggleBtn = document.getElementById('theme-toggle');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+      toggleBtn.textContent = document.body.classList.contains('dark') ? '☀️ Light' : '🌙 Dark';
+    });
+  </script>
+</body>
+</html>
